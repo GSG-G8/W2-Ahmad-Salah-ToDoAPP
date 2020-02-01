@@ -1,0 +1,26 @@
+{
+  "name": "W2-Ahmad-Salah-ToDoAPP",
+  "version": "1.0.0",
+  "description": "## Use TDD to build a To-do app",
+  "main": "index.js",
+  "dependencies": {
+    "jest-config": "^25.1.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G8/W2-Ahmad-Salah-ToDoAPP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G8/W2-Ahmad-Salah-ToDoAPP/issues"
+  },
+  "homepage": "https://github.com/GSG-G8/W2-Ahmad-Salah-ToDoAPP#readme"
+}
