@@ -1,11 +1,12 @@
 
-const todo_lest = [{
-    id: 0, // this is a unique number, it will be needed to find a to-do in a to-do list
-    description: "make tea", // this is a string that describes what you need to do
-    done: false, // This is true or false, it tells us whether a todo is done or not
-  }];
+// const todo_lest = [{
+//     id: 0, // this is a unique number, it will be needed to find a to-do in a to-do list
+//     description: "make tea", // this is a string that describes what you need to do
+//     done: false, // This is true or false, it tells us whether a todo is done or not
+//   }];
+  
   let generateId =function(arr){
-    return Object.keys(arr).length || 1;
+    return Object.keys(arr).length || 0;
   }
   // alert (generateId)
   function add_todo(arr,obj){
