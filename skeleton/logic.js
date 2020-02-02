@@ -21,11 +21,18 @@
     return arr.find(el => el.id==id);
   }
 
-
+  function change_done(arr, id) {
+    let obj=find_todo(arr, id);
+    obj['done']=true;
+    return arr.map(el => el.id==obj.id ? obj : el);
+  }
+  
+ 
 if (typeof module!=="undefined") module.exports = {
     add_todo,
     todo_lest,
     generateId,
     delete_todo,
-    find_todo
+    find_todo,
+    change_done
   }
