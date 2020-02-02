@@ -3,7 +3,8 @@ const {
     todo_lest,
     generateId,
     delete_todo,
-    find_todo
+    find_todo,
+    change_done
     } = require('./logic.js');
   
   
@@ -67,3 +68,13 @@ const {
           expect(actual).not.toEqual(todo_lest);
         })
   
+        //test done
+        test('change_done() should return done true',function(){
+          let actual=change_done(todo_lest,0);
+          let expected=[{
+            id: 0, 
+            description: "make tea", 
+            done: true, 
+          }];
+            expect(actual).toEqual(expected);
+          })
